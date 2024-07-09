@@ -1,4 +1,4 @@
-Big Book of Small Python Projects :-
+Big Book of Small Python Projects:-
 
 Kapil:
 1. Bagels

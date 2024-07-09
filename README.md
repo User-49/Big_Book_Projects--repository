@@ -2,6 +2,7 @@ Big Book of Small Python Projects:-
 
 Kapil:
 1. Bagels
+5. Bouncing DVD Logo
 
 Aditya:
 2. Birthday Paradox

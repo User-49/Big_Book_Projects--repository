@@ -44,7 +44,6 @@ while True:
                 continue
 
             number = list(number)
-            print('original_number', original_number)
             
             if number == original_number:
                 flag = 1

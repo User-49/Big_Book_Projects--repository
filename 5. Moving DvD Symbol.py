@@ -36,7 +36,8 @@ background = {0:l0,1:l1,2:l2,3:l3,4:l4,5:l5,6:l6,7:l7,8:l8,9:l9,10:l10,11:l11,12
               16:l16,17:l17,18:l18,19:l19,20:l20,21:l21,22:l22,23:l23,24:l24,25:l25,26:l26,27:l27,28:l28,
               29:l29,30:l30}
 text = 'DVD'
-x_velocity = y_velocity = 1
+x_velocity = 2
+y_velocity = 1
 x_prev = y_prev = 0
 background[y_prev][x_prev] = text
 

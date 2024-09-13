@@ -15,12 +15,12 @@ while True:
     choice = input('enter choice: ')
     if choice == '1':
         print('-' * 72)
-        t, x = ['_', '_', '_'], '______' 
-        data = {1: [t,x], 2: [t,x], 3: [t,x], 4: [t,x], 5: [t,x], 6: [t,x], 7: [t,x], 8: [t,x], 9: [t,x]}
+        t, x = ['_', '_', '_'], '______'
+        data = {1: [t, x], 2: [t, x], 3: [t, x], 4: [t, x], 5: [t, x], 6: [t, x], 7: [t, x], 8: [t, x], 9: [t, x]}
         original_number = random_number()
         status = str()
         n, flag = 1, 0
-        while 10-n:    
+        while 11 - n:
             print('\n\tWELCOME TO BAGELS')
             print('\nguess the correct number')
             print(f'you have {10 - n} chances left!!\n')
@@ -40,11 +40,11 @@ while True:
             except AssertionError or ValueError:
                 print('\ninvalid number entered')
                 input('press enter to go back')
-                print('-'*72)
+                print('-' * 72)
                 continue
 
             number = list(number)
-            
+
             if number == original_number:
                 flag = 1
                 print('\n\n\t !!Congratulations!!')
@@ -58,15 +58,15 @@ while True:
                     break
                 elif number[i] in original_number:
                     status = 'Pico'
-                elif status!='Pico':
+                elif status != 'Pico':
                     status = 'Bagels'
-                    
-            data[n] = [number,status]
+
+            data[n] = [number, status]
             n += 1
-            print('-'*72)
+            print('-' * 72)
         if flag == 0:
             print('\n\n\t---GAME OVER---')
-            print('the corrrect number was ', original_number)
+            print('the correct number was ', original_number)
 
     elif choice == '2':
         print('-' * 72)
